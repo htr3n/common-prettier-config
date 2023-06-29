@@ -1,0 +1,24 @@
+{
+  "name": "@htr3n/common-prettier-config",
+  "version": "0.0.1",
+  "description": "Some of my shared common Prettier configuration",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/htr3n/common-prettier-config.git"
+  },
+  "author": "Alex Tran <hoang.huy.tran@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/htr3n/common-prettier-config",
+  "keywords": [
+    "prettier-config",
+    "prettier"
+  ],
+  "devDependencies": {
+    "prettier": "2.8.8"
+  },
+  "scripts": {
+    "check": "npx prettier --no-editorconfig --config index.json --check .",
+    "format": "npx prettier --no-editorconfig --config index.json --write ."
+  }
+}
